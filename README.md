@@ -34,6 +34,15 @@ HTML and Bootstrap, The sign-up page consists of 8 fields:
 - State
 - City
 
+![Front end]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
 
 ## How to make it work
 
