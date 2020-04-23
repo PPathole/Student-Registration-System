@@ -38,7 +38,7 @@ HTML and Bootstrap, The sign-up page consists of 8 fields:
 
 ![Admin login](https://github.com/PPathole/Student-Registration-System/blob/master/adminlogin.PNG)
 
-![Admin Page]()
+![Admin Page](https://github.com/PPathole/Student-Registration-System/blob/master/adminpage.PNG)
 
 ![Phpmyadmin]()
 
