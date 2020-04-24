@@ -21,7 +21,8 @@ Registered**, PHP is used to act as an interface between the Database and the Fr
 password, gender, state, city) VALUES (’$fname’, ’$lname’, ’$roll no’, ’$email’,
 ’$password’, ’$gender’, ’$state’, ’$city’) ` through which the values are entered into
 the local MySQL database. The database can be accessed from ` XAMPP’s PhpMyAdmin.`
-
+Then comes the `Admin login`, which can be accessed by putting down the username: `admin` and password: `admin`, then you'll be redirected to `adminPage.php` which retrieves the data from the students table and displays it in a tabular format.
+The admin can delete or edit the info about the particular user, the respective code is in `delete.php` and `edit.php`
 The front-end which consists of The sign-up page is built up using CSS, SCSS,
 HTML and Bootstrap, The sign-up page consists of 8 fields:
 
