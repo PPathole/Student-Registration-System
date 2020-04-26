@@ -57,12 +57,12 @@
 
   	<style type="text/css">
   		h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		p {
 		font-family: 'Open Sans' sans-serif;
 		color: #FBFBFB;
 		margin: 0;
@@ -152,7 +152,30 @@ input[type="button"]:hover {
 		background-color: #368da2;
 		border: #368da2;
 }
+
+table{
+   background: #fff;
+   background: #109f67;
+  padding: 5rem;
+  display: table;
+  width: 100%;
+  height: 100vh;
+  vertical-align: middle;
+}
+table,thead,tbody,tfoot,tr, td,th{
+  text-align: center;
+  margin: auto;
+  border:1px solid #dedede;
+  padding: 1rem;
+  width: 50%;
+}
+
+body {
+	background: #109f67;
+}
   	</style>
+}
+}
 </head>
 
 <body>
@@ -164,10 +187,10 @@ input[type="button"]:hover {
 				</div>
 				<form class="contact__form" action="studentHome.php" method="post">
 						<p>Name</p>
-						<input class="contact__form-input" type="text" name="fname">
+						<input class="contact__form-input" type="text" name="fname" value="<?php echo $sqlget['fname']?>" readonly>
 
 						<p>Email</p>
-						<input class="contact__form-input" type="text" name="email">
+						<input class="contact__form-input" type="text" name="email" value="<?php echo $sqlget['email'] ?>" readonly>
 
 						<p>Message</p>
 						<textarea class="contact__form-textarea" type="text" name="message"></textarea>
