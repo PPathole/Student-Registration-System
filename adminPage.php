@@ -99,8 +99,15 @@ table,thead,tbody,tfoot,tr, td,th{
 <body>
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+        		<a class="nav-link" href="problems.php">Show Problems</a>
+      		</li>
+		</ul>
+
     <form class="form-inline my-2 my-lg-0">
       <a href="admin.html">Logout</a>
+
     </form>
   </div>
 </nav>
