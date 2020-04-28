@@ -125,6 +125,8 @@ table,thead,tbody,tfoot,tr, td,th{
         echo $row['message'];
         echo "</td><td>";
         echo "<button name=\"resolve\"><a href='email.php?edit=$row[id]'>Resolve Issue</a></button>";
+        echo "</td><td>";
+        echo "<button name=\"delete\"><a href='delquery.php?del=$row[id]'>Delete Query</button>";
         echo "</td></tr>";
     }
 
