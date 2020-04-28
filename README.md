@@ -35,22 +35,23 @@ HTML and Bootstrap, The sign-up page consists of 8 fields:
 - State
 - City
 
-![Front end](https://github.com/PPathole/Student-Registration-System/blob/master/home.PNG)
+![Front end](https://github.com/PPathole/Student-Registration-System/blob/master/index.PNG)
 
 ![Admin login](https://github.com/PPathole/Student-Registration-System/blob/master/adminlogin.PNG)
 
-![Admin Page](https://github.com/PPathole/Student-Registration-System/blob/master/adminpage.PNG)
+![Admin Page](https://github.com/PPathole/Student-Registration-System/blob/master/adminpage1.PNG)
 
 ![Phpmyadmin](https://github.com/PPathole/Student-Registration-System/blob/master/phpmyadmin.PNG)
 
 ![Phpmyadmin db](https://github.com/PPathole/Student-Registration-System/blob/master/phpmyadmindb.PNG)
 
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
+![Student Login](https://github.com/PPathole/Student-Registration-System/blob/master/studentlogin.PNG)
+
+![Student Feed](https://github.com/PPathole/Student-Registration-System/blob/master/studentfeed1.PNG)
+
+![Student Feed 2](https://github.com/PPathole/Student-Registration-System/blob/master/studentfeed2.PNG)
+
+![Problems](https://github.com/PPathole/Student-Registration-System/blob/master/problems.PNG)
 
 ## How to make it work
 
