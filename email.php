@@ -17,8 +17,8 @@
 		$to = $row['email'];
 		//echo $to;
 
-		$subject = "Problem Solved: AISSMS COE";
-		$message = "Dear Mr/Mrs., We're really pleased to inform you that the query/problem that you posted recently on our AISSMS COE Forum has been resolved!\r\n Really appreciate you using our AISSMS COE Forum and thanking you for your valuable time and patience to stick with us till this problem of yours was solved.\r\n Thanking you, regards\r\n Dr. Bormane \r\n AISSMS COE Principal.";
+		$subject = "Problem Solved: College_NAME";
+		$message = "Dear Mr/Mrs., We're really pleased to inform you that the query/problem that you posted recently on our X Forum has been resolved!\r\n Really appreciate you using our X Forum and thanking you for your valuable time and patience to stick with us till this problem of yours was solved.\r\n Thanking you, regards\r\n Dr. Who \r\n X college Principal.";
 		$header = "From: ";
 
 		if(mail($to, $subject, $message, $header)) {
