@@ -63,3 +63,8 @@ HTML and Bootstrap, The sign-up page consists of 8 fields:
 - In that database create a new table students consisting of **8 colummns**
 - Now run the home.php file, through the browser, by typing this url ` localhost://home.php `
 - Enjoy!! ✌
+
+
+## Email Functionality
+Sending emails to students to respond whether their query has been solved or not.
+Sending emails through localhost & xampp consists of dealing with 2 files present in `C:\\xampp\php\php.ini` and `C:\\xampp\sendmail\sendmail.ini`
