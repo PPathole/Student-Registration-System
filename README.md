@@ -83,3 +83,5 @@ Sending emails through localhost & xampp consists of dealing with 2 files presen
 - extension=php_openssl.dll
 - sendmail_from = `email`
 - sendmail_path = "C:\xampp\sendmail\sendmail.exe -t"
+
+## System Design
