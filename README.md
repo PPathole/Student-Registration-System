@@ -85,3 +85,5 @@ Sending emails through localhost & xampp consists of dealing with 2 files presen
 - sendmail_path = "C:\xampp\sendmail\sendmail.exe -t"
 
 ## System Design
+
+![System Design](https://github.com/PPathole/Student-Registration-System/blob/master/system_design.png)
