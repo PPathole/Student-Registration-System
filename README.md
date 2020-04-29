@@ -70,4 +70,11 @@ Sending emails to students to respond whether their query has been solved or not
 Sending emails through localhost & xampp consists of dealing with 2 files present in `C:\\xampp\php\php.ini` and `C:\\xampp\sendmail\sendmail.ini`
 
 #### Inside sendmail.ini file:
--
+- smtp_server=smtp.gmail.com
+- smtp_port=587
+- smtp_ssl=tls
+- error_logfile=error.log
+- debug_logfile=debug.log
+- auth_username=`your email to be used for sending purposes`
+- auth_password=`password of that respective email`
+- force_sender=`same email used`
