@@ -78,3 +78,6 @@ Sending emails through localhost & xampp consists of dealing with 2 files presen
 - auth_username=`your email to be used for sending purposes`
 - auth_password=`password of that respective email`
 - force_sender=`same email used`
+
+#### Inside php.ini file:
+- 
